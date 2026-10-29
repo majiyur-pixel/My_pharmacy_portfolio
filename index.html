@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MAJIBUR RAHAMAN — B.Pharm student at Lovely Professional University exploring pharmaceutical quality, technology, coding, and AI in healthcare.">
+  <meta name="theme-color" content="#080B1A">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <title>MAJIBUR RAHAMAN | Pharmacy × Technology × Innovation</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="MR — Majibur Rahaman home">
+      <img class="brand-logo" src="assets/mr-logo.svg" alt="MR logo" width="54" height="48">
+      <span class="brand-copy"><strong>MAJIBUR RAHAMAN</strong><small>PHARMACY × TECHNOLOGY × INNOVATION</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#journey">Journey</a><a href="#interests">Interests</a>
+      <a href="#qa-path">QA/QC Path</a><a href="#career-story">Career Story</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#goals">Goals</a><a href="#contact">Contact</a>
+      <button class="nav-edit" id="openEditor">✦ Edit portfolio</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="status-line"><span class="pulse"></span> B.PHARM STUDENT <span class="status-divider">/</span> ASPIRING QA/QC PROFESSIONAL</div>
+        <p class="eyebrow">PHARMACY × TECHNOLOGY × INNOVATION</p>
+        <h1><span id="heroHeadline">Building a future in</span><br><span class="gradient-text" id="heroAccent">Pharmacy &amp; Beyond.</span></h1>
+        <p class="hero-description" id="heroIntro">I’m building my foundation in pharmaceutical science while exploring quality systems, Python, and thoughtful uses of AI in healthcare.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#career-story">Explore my journey <span>↗</span></a><a class="button button-ghost" href="#projects">View projects</a></div>
+        <div class="hero-tags"><span>QUALITY ASSURANCE</span><span>QUALITY CONTROL</span><span>PHARMA × AI</span></div>
+        <div class="hero-proofline"><span class="proof-pulse"></span><span>LEARNING · PREPARING · GROWING</span></div>
+      </div>
+      <div class="hero-visual" id="heroVisual" aria-label="Animated Rx pharmacy symbol surrounded by scientific orbital rings and molecular particles">
+        <canvas class="molecule-canvas" id="moleculeCanvas" aria-hidden="true"></canvas>
+        <div class="hero-grid-glow" aria-hidden="true"></div>
+        <div class="science-hud hud-left"><span>PHARMACEUTICAL SCIENCE</span><b>FIELD / 01</b></div>
+        <div class="science-hud hud-right"><span>QUALITY SYSTEMS</span><b>QA · QC</b></div>
+        <div class="orbit orbit-outer"></div><div class="orbit orbit-middle"></div><div class="orbit orbit-inner"></div>
+        <div class="core rx-core" aria-label="Rx symbol"><span class="rx-mark">Rx</span><small>PHARMACY · SCIENCE</small></div>
+        <div class="hero-orbit-caption caption-left"><span>01</span><b>MOLECULAR SCIENCE</b></div><div class="hero-orbit-caption caption-right"><span>02</span><b>BETTER HEALTHCARE</b></div>
+        <span class="atom atom-a"></span><span class="atom atom-b"></span><span class="atom atom-c"></span>
+        <div class="float-label label-top"><span class="tiny-dot"></span> QUALITY BY DESIGN</div><div class="float-label label-bottom">LEARN <b>→</b> BUILD <b>→</b> GROW</div>
+        <div class="rx-scanline" aria-hidden="true"></div>
+      </div>
+      <aside class="hero-intel" aria-label="Current professional focus">
+        <div class="intel-top"><span class="intel-kicker">CURRENT MISSION</span><span class="intel-live"><i></i> IN PROGRESS</span></div>
+        <h2>From pharmacy foundations<br>to <span class="gradient-text">quality-driven impact.</span></h2>
+        <p>Building the knowledge and habits needed to contribute to safe, consistent, high-quality medicines.</p>
+        <div class="intel-divider"></div>
+        <div class="intel-row"><span class="intel-icon">⌬</span><span><b>Quality assurance</b><small>Systems · SOP awareness · GMP basics</small></span><span class="intel-arrow">↗</span></div>
+        <div class="intel-row"><span class="intel-icon">⚗</span><span><b>Quality control</b><small>Analysis · accuracy · lab learning</small></span><span class="intel-arrow">↗</span></div>
+        <div class="intel-row"><span class="intel-icon">⌘</span><span><b>Pharma × technology</b><small>Python · data · responsible AI</small></span><span class="intel-arrow">↗</span></div>
+        <div class="intel-footer"><span>CAREER ROADMAP</span><a href="#qa-path">Explore focus <b>→</b></a></div>
+      </aside>
+      <div class="hero-bottom"><span>MR · MAJIBUR RAHAMAN · B.PHARM</span><a href="#about">SCROLL TO EXPLORE <span>↓</span></a></div>
+    </section>
+    <section class="section-wrap section-block" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / ABOUT</p><h2>Curiosity today.<br><span class="gradient-text">Capability tomorrow.</span></h2></div>
+      <div class="about-layout">
+        <div class="about-text"><p class="lead" id="aboutText">I’m MAJIBUR RAHAMAN, a first-year B.Pharm student at Lovely Professional University (LPU), India. I’m interested in pharmaceutical quality assurance and quality control, while exploring coding, Python, and artificial intelligence in healthcare. I’m currently developing my knowledge through academic practicals, student projects, and continuous learning. My goal is to build a career that connects pharmaceutical science with emerging technologies.</p><p class="muted">This portfolio documents my learning, projects, skills, and progress as I grow through my degree.</p></div>
+        <div class="profile-panel">
+          <div class="profile-top"><div class="profile-avatar" id="profileInitials" aria-label="Profile photo"><img src="assets/profile-formal.jpg" alt=""></div><div><p class="profile-name" id="profileName">MAJIBUR RAHAMAN</p><p class="profile-role">B.Pharm Student · LPU · India</p></div><span class="online-indicator" title="Portfolio active"></span></div>
+          <div class="profile-details"><div><span>PROGRAMME</span><strong>Bachelor of Pharmacy</strong></div><div><span>CURRENT STAGE</span><strong>First Year</strong></div><div><span>FOCUS</span><strong>QA/QC · Coding · AI</strong></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block section-tinted" id="journey">
+      <div class="section-heading"><p class="eyebrow">02 / THE JOURNEY</p><h2>Building my <span class="gradient-text">foundation.</span></h2><p class="muted">A work in progress — one concept, practical, and skill at a time.</p></div>
+      <div class="journey-grid">
+        <article class="journey-card"><span class="card-number">01</span><span class="card-icon">⌬</span><p class="card-kicker">CURRENT CHAPTER</p><h3>Bachelor of Pharmacy</h3><p class="muted">Learning foundational pharmacy subjects, laboratory practices, and the science behind medicines.</p><span class="card-foot">LOVELY PROFESSIONAL UNIVERSITY</span></article>
+        <article class="journey-card"><span class="card-number">02</span><span class="card-icon">◈</span><p class="card-kicker">CAREER EXPLORATION</p><h3>Quality & Industry</h3><p class="muted">Exploring quality assurance, quality control, documentation, and pharmaceutical manufacturing.</p><span class="card-foot">QA / QC INTEREST</span></article>
+        <article class="journey-card"><span class="card-number">03</span><span class="card-icon">⌘</span><p class="card-kicker">GROWING SKILLS</p><h3>Pharma × Technology</h3><p class="muted">Beginning with Python, Excel, and digital tools that may support pharmacy learning and future healthcare projects.</p><span class="card-foot">LEARN · PRACTISE · IMPROVE</span></article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="interests">
+      <div class="section-heading"><p class="eyebrow">03 / INTEREST AREAS</p><h2>Where science meets <span class="gradient-text">possibility.</span></h2></div>
+      <div class="interest-grid">
+        <article class="interest-card"><span class="interest-symbol">⚗</span><div><h3>Pharmaceutics</h3><p>Dosage forms, formulation concepts, and how medicines are prepared.</p></div><span class="card-arrow">↗</span></article>
+        <article class="interest-card"><span class="interest-symbol">⌕</span><div><h3>Quality Assurance & Control</h3><p>Quality systems, testing, documentation, and reliable results.</p></div><span class="card-arrow">↗</span></article>
+        <article class="interest-card"><span class="interest-symbol">⌬</span><div><h3>Pharmaceutical Analysis</h3><p>Learning how raw materials and medicines are examined.</p></div><span class="card-arrow">↗</span></article>
+        <article class="interest-card"><span class="interest-symbol">⌘</span><div><h3>Digital & AI Skills</h3><p>Exploring coding, spreadsheets, and responsible technology use.</p></div><span class="card-arrow">↗</span></article>
+      </div>
+    </section>
+
+
+    <section class="section-wrap section-block qa-section" id="qa-path">
+      <div class="section-heading heading-row">
+        <div><p class="eyebrow">04 / CAREER FOCUS · QA / QC</p><h2>Quality is built<br><span class="gradient-text">before the final test.</span></h2><p class="muted">My intended direction is pharmaceutical quality. This is the knowledge and practice I want to build step by step.</p></div>
+        <div class="qa-stamp"><span class="qa-stamp-ring">Q</span><span>QUALITY<br>BY DESIGN</span></div>
+      </div>
+      <div class="qa-grid">
+        <article class="qa-card qa-card-feature"><div class="qa-card-top"><span class="qa-index">01</span><span class="qa-status">LEARNING ROADMAP</span></div><div class="qa-glyph glyph-check"><span></span><span></span><span></span></div><h3>Quality Assurance</h3><p>Understand how procedures, documentation, training, and process controls help prevent errors and support consistent medicine quality.</p><div class="qa-tags"><span>GMP basics</span><span>SOP awareness</span><span>Documentation</span></div></article>
+        <article class="qa-card"><div class="qa-card-top"><span class="qa-index">02</span><span class="qa-status">FOUNDATION TO BUILD</span></div><div class="qa-glyph glyph-target"><i></i><i></i><i></i></div><h3>Quality Control</h3><p>Build understanding of sampling, specifications, analytical methods, laboratory safety, and how results are recorded and reviewed.</p><div class="qa-tags"><span>Testing concepts</span><span>Lab practice</span></div></article>
+        <article class="qa-card"><div class="qa-card-top"><span class="qa-index">03</span><span class="qa-status">PRACTISE RESPONSIBLY</span></div><div class="qa-glyph glyph-data"><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div><h3>Data & Integrity</h3><p>Learn why accurate records, traceable calculations, careful observation, and honest reporting matter in a regulated environment.</p><div class="qa-tags"><span>Excel</span><span>Data integrity</span><span>Accuracy</span></div></article>
+      </div>
+      <div class="qa-bottomline"><span class="qa-pulse"></span><p><strong>My preparation principle</strong> — learn the concept, practise it in the right setting, document the evidence, then reflect on what improved.</p><a href="#roadmap">See my roadmap <span>↗</span></a></div>
+    </section>
+
+    <section class="section-wrap section-block career-story" id="career-story">
+      <div class="section-heading"><p class="eyebrow">CAREER STORY / MY NEXT CHAPTERS</p><h2>From curious student<br><span class="gradient-text">to quality-minded professional.</span></h2><p class="muted">A practical story, built in stages. Open each chapter to see what I will learn and what evidence I want to create.</p></div>
+      <div class="story-track">
+        <details class="story-step" open><summary><span class="story-number">01</span><span><small>NOW · FOUNDATION</small><strong>Understand the science</strong></span><span class="story-toggle">＋</span></summary><div class="story-detail"><p>Build strong B.Pharm fundamentals, learn the purpose behind practicals, and keep clear notes instead of memorising without context.</p><div class="story-evidence"><b>Evidence to build</b><span>Practical records · exam notes · concept maps</span></div></div></details>
+        <details class="story-step"><summary><span class="story-number">02</span><span><small>NEXT · LAB READINESS</small><strong>Practise accuracy and integrity</strong></span><span class="story-toggle">＋</span></summary><div class="story-detail"><p>Develop safe laboratory habits, understand specifications and calculations, and learn why traceable documentation matters in quality work.</p><div class="story-evidence"><b>Evidence to build</b><span>Correct calculations · lab reflections · Excel practice</span></div></div></details>
+        <details class="story-step"><summary><span class="story-number">03</span><span><small>PREPARATION · QA/QC</small><strong>Connect learning to industry</strong></span><span class="story-toggle">＋</span></summary><div class="story-detail"><p>Study introductory GMP, SOPs, quality assurance, quality control, data integrity, and analytical methods through coursework and credible learning resources.</p><div class="story-evidence"><b>Evidence to build</b><span>Topic summaries · mini case studies · verified certificates</span></div></div></details>
+        <details class="story-step"><summary><span class="story-number">04</span><span><small>FUTURE · OPPORTUNITY</small><strong>Show proof, not just ambition</strong></span><span class="story-toggle">＋</span></summary><div class="story-detail"><p>Use genuine projects, relevant training, internships when eligible, and a well-documented portfolio to explore QA/QC roles and longer-term international options.</p><div class="story-evidence"><b>Evidence to build</b><span>Real projects · industry exposure · career-ready CV</span></div></div></details>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block section-tinted" id="projects">
+      <div class="section-heading heading-row"><div><p class="eyebrow">05 / SELECTED WORK</p><h2>Projects in <span class="gradient-text">progress.</span></h2></div><span class="section-note">ADD YOUR REAL WORK AS YOU GROW</span></div>
+      <div class="project-grid" id="projectGrid">
+        <article class="project-card"><div class="project-art art-cyan"><span>01</span><div class="art-ring">⚗</div></div><div class="project-content"><div class="project-meta"><span>ACADEMIC</span><span>IN PROGRESS</span></div><h3>Pharmacy Learning Portfolio</h3><p>A personal website documenting my first-year learning and development.</p><div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div></article>
+        <article class="project-card"><div class="project-art art-violet"><span>02</span><div class="art-ring">⌬</div></div><div class="project-content"><div class="project-meta"><span>COURSEWORK</span><span>ADD DETAILS</span></div><h3>Practical & Assignment Notes</h3><p>A place to present selected practicals, diagrams, and academic assignments.</p><div class="project-tags"><span>B.Pharm</span><span>Documentation</span></div></div></article>
+        <article class="project-card"><div class="project-art art-green"><span>03</span><div class="art-ring">⌘</div></div><div class="project-content"><div class="project-meta"><span>FUTURE PROJECT</span><span>PLANNED</span></div><h3>Pharma × Digital Exploration</h3><p>A future space for small coding, data, or healthcare technology projects.</p><div class="project-tags"><span>Learning</span><span>Technology</span></div></div></article>
+        <article class="project-card project-card-concept"><div class="project-art art-blueprint"><span>04</span><div class="blueprint-grid" aria-hidden="true"><i></i><i></i><i></i><i></i><b>AI</b></div></div><div class="project-content"><div class="project-meta"><span>CONCEPT TO EXPLORE</span><span>NOT BUILT YET</span></div><h3>Medicine Information Study Tool</h3><p>A possible beginner project to organise publicly available medicine information for study, with clear sources and no diagnosis or treatment recommendations.</p><div class="project-tags"><span>Python</span><span>Structured data</span><span>Responsible AI</span></div></div></article>
+      </div>
+      <p class="helper-note">Replace sample projects with work you have genuinely completed. You can add or edit project cards using Edit Portfolio.</p>
+      <dialog class="project-dialog" id="projectDialog" aria-labelledby="projectDialogTitle"><button class="project-dialog-close" type="button" id="closeProjectDialog" aria-label="Close project details">×</button><p class="eyebrow">PROJECT DETAILS</p><h3 id="projectDialogTitle">Project title</h3><p id="projectDialogBody"></p><div id="projectDialogTags" class="project-tags"></div><p class="project-dialog-note">Project status is shown honestly in the portfolio; planned ideas are not presented as completed work.</p></dialog>
+    </section>
+
+    <section class="section-wrap section-block" id="skills">
+      <div class="section-heading"><p class="eyebrow">06 / SKILLS & LEARNING</p><h2>Progress over <span class="gradient-text">perfection.</span></h2><p class="muted">Only list skills and certificates you actually have. Update this section as you learn.</p></div>
+      <div class="skills-layout">
+        <div class="skill-panel"><h3>Areas I’m developing</h3><div class="skill-row"><div><span>Pharmacy fundamentals</span><span>Learning</span></div><div class="skill-track"><span style="width:30%"></span></div></div><div class="skill-row"><div><span>Laboratory practice</span><span>Learning</span></div><div class="skill-track"><span style="width:22%"></span></div></div><div class="skill-row"><div><span>Coding fundamentals</span><span>Beginner</span></div><div class="skill-track"><span style="width:35%"></span></div></div><p class="helper-note">Visual learning indicators only — not formal proficiency scores. Update them as your evidence and practice grow.</p></div>
+        <div class="skill-explorer" aria-label="Explore skill categories">
+          <p class="eyebrow">SKILL EXPLORER</p><h3>Choose an area to explore</h3>
+          <div class="skill-tabs" role="group" aria-label="Skill categories"><button type="button" class="skill-tab is-active" data-skill="pharmacy" aria-pressed="true">Pharmacy</button><button type="button" class="skill-tab" data-skill="quality" aria-pressed="false">QA / QC</button><button type="button" class="skill-tab" data-skill="digital" aria-pressed="false">Digital</button></div>
+          <div class="skill-tab-content" id="skillTabContent" aria-live="polite"><strong>Pharmacy foundations</strong><p>Building understanding of core subjects, dosage forms, practical concepts, and scientific terminology.</p><span>STATUS · LEARNING</span></div>
+        </div>
+        <div class="learning-panel"><span class="learning-icon">✦</span><p class="eyebrow">LEARNING LOG</p><h3>Small steps compound.</h3><p class="muted">Record completed courses, workshops, tools, and new skills as you earn them. Add the provider, date, and a link or evidence whenever possible.</p><button class="text-button" id="openEditor2">Update learning log <span>↗</span></button></div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block ambition-section" id="goals">
+      <div class="ambition-box"><div><p class="eyebrow">07 / THE DIRECTION</p><h2>Build skills.<br><span class="gradient-text">Create opportunities.</span></h2><p class="muted">My current direction is to strengthen my pharmacy foundation, prepare for future QA/QC opportunities, and explore how coding and AI can contribute to healthcare. As a long-term ambition, I hope to explore professional or academic opportunities in Germany and broaden my experience in the pharmaceutical industry.</p></div><div class="ambition-orbit"><span>LEARN</span><b>✳</b><span>GROW</span></div></div>
+    </section>
+
+    <section class="section-wrap section-block roadmap-section" id="roadmap">
+      <div class="section-heading"><p class="eyebrow">08 / THE ROAD AHEAD</p><h2>Not just a goal.<br><span class="gradient-text">A plan in motion.</span></h2><p class="muted">A realistic roadmap I can build on throughout my B.Pharm journey.</p></div>
+      <div class="roadmap-grid roadmap-timeline">
+        <article class="roadmap-card"><span class="roadmap-step">01 · NOW</span><h3>Build the foundation</h3><p>Strengthen core pharmacy subjects, practical knowledge, scientific terminology, and study habits.</p><span class="roadmap-status">CURRENT FOCUS</span></article>
+        <article class="roadmap-card"><span class="roadmap-step">02 · NEXT</span><h3>Practise and document</h3><p>Keep clear practical notes, improve Excel and Python fundamentals, and present genuine academic work.</p><span class="roadmap-status">SKILL DEVELOPMENT</span></article>
+        <article class="roadmap-card"><span class="roadmap-step">03 · FUTURE</span><h3>Explore the industry</h3><p>Learn about QA/QC, GMP, documentation, internships, and international study or career pathways.</p><span class="roadmap-status">LONG-TERM DIRECTION</span></article>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block contact-section" id="contact">
+      <p class="eyebrow">09 / CONTACT</p><h2>Every journey starts<br>with <span class="gradient-text">a connection.</span></h2><p class="muted">Have a question or want to connect about learning and projects?</p><a class="button button-primary" id="emailLink" href="mailto:majiyur@gmail.com">Email me ↗</a><div class="social-links" aria-label="Professional links"><a href="https://www.linkedin.com/in/sheikh-majiyur-47b8753bb?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/majiyur-pixel" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="footer-brand" href="#home"><img src="assets/mr-logo.svg" alt="MR logo" width="38" height="34"> MAJIBUR RAHAMAN</a><p>Pharmacy × Technology × Innovation · Personal portfolio.</p><p>© <span id="year"></span> <span id="footerName">MAJIBUR RAHAMAN</span></p></footer>
+
+  <div class="editor-backdrop" id="editorBackdrop" hidden>
+    <section class="editor-panel" role="dialog" aria-modal="true" aria-labelledby="editorTitle">
+      <div class="editor-header"><div><p class="eyebrow">PORTFOLIO CONTROL ROOM</p><h2 id="editorTitle">Edit your content</h2></div><button class="close-editor" id="closeEditor" aria-label="Close editor">×</button></div>
+      <p class="editor-explainer">Edit the fields and choose Save to update this browser's view. Export a backup before changing devices. These edits do not publish themselves to Render.</p>
+      <form id="portfolioForm">
+        <label>Display name<input id="editName" name="name" maxlength="80" placeholder="Your name"></label>
+        <label>Brand tagline<input id="editTagline" name="tagline" maxlength="100" placeholder="Where science meets the future"></label>
+        <label>Hero introduction<textarea id="editIntro" name="intro" rows="3" maxlength="400"></textarea></label>
+        <label>About me<textarea id="editAbout" name="about" rows="4" maxlength="700"></textarea></label>
+        <label>Contact email<input id="editEmail" name="email" type="email" maxlength="120" placeholder="you@example.com"></label>
+        <label>Learning log / certificates<textarea id="editLearning" name="learning" rows="4" maxlength="1200" placeholder="One item per line: Course — provider — status"></textarea></label>
+        <div class="editor-actions"><button class="button button-primary" type="submit">Save in this browser</button><button class="button button-ghost" type="button" id="exportData">Export backup</button><button class="button button-ghost" type="button" id="resetData">Reset sample</button></div>
+        <p class="editor-status" id="editorStatus" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </div>
+  <input type="file" id="importFile" accept="application/json,.json" hidden>
+  <script>
+    // This is intentionally not used for logic; the app code is in script.js.
+  </script>
+
+
+</body>
+</html>
